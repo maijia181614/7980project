@@ -1,42 +1,34 @@
 {
-  "name": "hello",
-  "version": "0.1.0",
+  "name": "7980project",
+  "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "serve -s dist",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "@element-plus/icons-vue": "^2.3.1",
+    "apexcharts": "^3.48.0",
+    "axios": "^1.6.8",
+    "echarts": "^5.5.0",
+    "echarts-wordcloud": "^2.1.0",
+    "element-plus": "^2.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-apexcharts": "^1.6.2",
+    "vue-router": "^4.3.0",
+    "vue3-apexcharts": "^1.5.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.2.0",
-    "@vue/cli-plugin-eslint": "~4.2.0",
-    "@vue/cli-service": "~4.2.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.1.2",
-    "vue-template-compiler": "^2.6.11"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8",
+    "vite-plugin-vue-devtools": "^7.0.25"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+  "engines": {
+    "node": "20.x"
+  }
 }

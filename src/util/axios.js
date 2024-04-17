@@ -5,7 +5,7 @@ import { useAuthStore } from '@/stores/auth';
 
 // 创建 axios 实例
 const instance = axios.create({
-  baseURL: '/testHost', // 你的 API 基础链接
+  baseURL: 'https://indekkusu.azurewebsites.net', // 你的 API 基础链接
   timeout: 10000, // 请求超时时间
   headers: {'Content-Type': 'application/json'} 
 });
